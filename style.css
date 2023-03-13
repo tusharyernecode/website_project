@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+  --themeRed: #e43a47;
+  --gray: #efefef;
+
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+button,
+body{
+  font-family: 'Poppins', sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.fullContainer{
+  width: 100%;
+}
+.container{
+  width: 1140px;
+  margin: auto;
+}
+
+header{
+  width: 100%;
+  background-color: rgba(0,0, 0,0.6);
+  position: fixed;
+  z-index: 2;
+
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .container .logo {
+  padding: 15px 5px;
+  height: 100px;
+  
+
+}
+
+header .container .logo img{
+  height: 100%;
+}
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li{
+  display: inline-block;
+}
+
+header nav ul li a{
+  display: inline-block;
+  height: 75px;
+  line-height: 75px;
+  padding: 0 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 16px;
+  color: #fff;
+}
+
+header nav ul li a:hover { 
+  background-color:  var(--themeRed);
+}
+
+.banner{
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("WhatsApp\ Image\ 2023-03-03\ at\ 4.04.14\ PM\ \(2\).jpeg");
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: change 30s infinite ease-in-out;
+}
+@keyframes change{
+  0%
+  {
+      background-image: url(WhatsApp\ Image\ 2023-03-03\ at\ 4.04.12\ PM.jpeg);
+  }
+  20%
+  {
+      background-image: url(WhatsApp\ Image\ 2023-03-03\ at\ 4.04.12\ PM\ \(1\).jpeg);
+  } 
+  40%
+  {
+      background-image: url(WhatsApp\ Image\ 2023-03-03\ at\ 4.04.13\ PM.jpeg);
+  } 
+  60%
+  {
+     background-image: url(WhatsApp\ Image\ 2023-03-03\ at\ 4.04.13\ PM\ \(1\).jpeg);
+  }
+  80%
+  {
+      background-image: url(WhatsApp\ Image\ 2023-03-03\ at\ 4.04.13\ PM\ \(2\).jpeg);
+  }
+  100%
+  {
+      background-image: url(WhatsApp\ Image\ 2023-03-03\ at\ 4.04.14\ PM.jpeg);
+  }
+}
+
+.banner h1{
+  margin-top: 230px;
+  display: inline-block;
+  font-size: 3.5rem;
+  color: whitesmoke;
+  text-shadow: 0 0 2px #000;
+  width: 50%;
+  line-height: 4.2rem;
+  font-weight: 100;
+}
+
+.banner h1 pre{
+  color:rgb(219, 122, 19);
+  text-shadow: 0 0 2px #000;
+  font-size: 5rem;
+  display: inline-block;
+  line-height: 5rem;
+  padding: 0 15px;
+  font-weight: 900;
+  border-radius: 10px;
+}
+
+.banner h1 span{
+  color: #efefef;
+  background-color: var(--themeRed);
+  display: inline-block;
+  line-height: 3.5rem;
+  padding: 0 15px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.banner p{
+  color:rgb(243, 247, 243);
+  width: 50%;
+  text-shadow: 0 0 2px #000;
+
+}
+
+.banner button{
+  background-color: var(--themeRed);
+  border: 0;
+  outline: none;
+  color: #fff;
+  padding: 10PX 15PX;
+  margin-top: 20px;
+  font-size: 13PX;
+  border-radius: 3PX;
+  font-weight: 600;
+}
+
+.sectionTitle{
+  width: 300px;
+  border-bottom: 3px solid var(--themeRed);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 200;
+  margin: 0 auto 50px;
+  position: relative;
+  padding: 10px 0;
+  text-transform: uppercase; 
+}
+
+.sectionTitle::after {
+  display: inline-block;
+  content: "";
+  height: 15px;
+  width: 15px;
+  background-color: var(--themeRed);
+  position: absolute;
+  left: calc(50% - 10px);
+  top: calc(75% - 7px); 
+  transform: rotate(45deg) translate(50%,50%);
+  border: 2px  solid #fff;
+  
+}
+
+section{
+  padding: 70px 50px;
+  position: relative;
+}
+
+#AboutSection  .cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+  position: relative;
+  height: 245px;
+
+}
+
+#AboutSection .cards >div{
+  width: 350px;
+  background-color: var(--gray);
+  padding: 35px;
+  color: #444;
+  text-align: center;
+  border-radius: 15px;
+  height: 215px;
+  border: 1px solid white;
+  transition: 0.4s;
+}
+
+#AboutSection .cards >div:hover{
+  width: 400px;
+  margin-top: -20px;
+  border-color:var(--themeRed);
+  padding: 55px;
+  height: auto;
+}
+
+#AboutSection .cards >div .title{
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#AboutSection .cards >div p{
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+#AboutSection .cards >div button{
+  border: 1px solid var(--themeRed);
+  outline: none;
+  padding: 7px 25px;
+  margin: 13px;
+  font-size: 12px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#AboutSection .cards >div:hover button{
+  background-color: var(--themeRed);
+  color: #fff;
+}
+
+.programs {
+  background-color: #efefef;
+}
