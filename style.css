@@ -1,0 +1,120 @@
+body{
+    background:linear-gradient(to right, #e2ffff 0%, #33ccff 100%);;
+}
+/*heading*/
+.heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: bold;
+    text-align: center;
+    text-shadow: #33ccff;
+    font: bold;
+    margin-top: -35px;
+    color: rgb(204, 106, 106);
+    text-decoration-line: overline;
+    font-size: 43px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;}
+
+.image img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.2; /* Adjust opacity as needed */
+  }
+
+/*home-button*/
+.texthome{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    text-decoration: none;
+    text-decoration-line: overline;
+    color:rgb(204, 106, 106);;
+}
+
+.texthome:hover{
+   color: black;
+  
+}
+form {
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 700px;
+    height: 400px;
+    background-color: #d6f0f7;
+}
+.name{
+    text-align: center;
+    width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			box-sizing: border-box;
+			border: 2px solid #ccc;
+			border-radius: 4px;
+			font-size: 16px;
+			background-color: #f7f7f7;
+			color: #555;
+			font-family: 'Open Sans', sans-serif;
+}
+
+.email{
+    text-align: center;
+    width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			box-sizing: border-box;
+			border: 2px solid #ccc;
+			border-radius: 4px;
+			font-size: 16px;
+			background-color: #f7f7f7;
+			color: #555;
+			font-family: 'Open Sans', sans-serif;
+}
+.amount{
+    text-align: center;
+    width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			box-sizing: border-box;
+			border: 2px solid #ccc;
+			border-radius: 4px;
+			font-size: 16px;
+			background-color: #f7f7f7;
+			color: #555;
+			font-family: 'Open Sans', sans-serif;
+}
+.share{
+    text-align: center;
+    width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			box-sizing: border-box;
+			border: 2px solid #ccc;
+			border-radius: 4px;
+			font-size: 16px;
+			background-color: #f7f7f7;
+			color: #555;
+			font-family: 'Open Sans', sans-serif;
+}
+.submit{
+    background-color: transparent;
+    color:#e43a47;
+    padding: 14px 20px;
+    border-bottom: #141414;
+    border-radius: 90px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
