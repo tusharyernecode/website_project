@@ -154,6 +154,14 @@ header nav ul li a:hover {
 
 }
 
+.donate{
+ text-decoration: none;
+ color: #000;
+}
+.becamenow{
+  text-decoration: none;
+}
+
 .banner button{
   background-color: var(--themeRed);
   border: 0;
@@ -170,10 +178,25 @@ header nav ul li a:hover {
   
 }
 
-.donate{
+* {
+  box-sizing: border-box;
+}
+
+.column img {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+
+
+
+.donatenow{
   text-decoration:none;
   color: black;
 }
+
+
 
 /* button:hover{ */
   /* background-color: #000; */

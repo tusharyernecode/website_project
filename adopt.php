@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Donate Now - PAW</title>
+    <title>Adopt Now - PAW</title>
     <link rel="stylesheet" href="./style.css" >
     <link rel="icon" type="image/x-icon" href="./logoweb.png">
 </head>
@@ -13,11 +13,11 @@
 <a class="btn" href="index.php">Back to Home</a>
 
 <div class="heading">
-🌱Donate Now
+Adopt Now
 </div>
 
 
-     <form method="POST" action="get.php">
+     <form method="POST" action="adopt.php">
       <div class="name">
          <label for="name">Name </lable>
        <input type='text' placeholder="Enter Your Name" name='name' id='name' required></input> 
@@ -30,8 +30,8 @@
 </div>
 
       <div class="amount">
-       <label for="amount">Amount </lable>
-       <input type='text' name='amount' placeholder="Enter Your Amount" id='amount' required></input>
+       <label for="pname">Pet Name </lable>
+       <input type='text' name='pname' placeholder="Enter Pet Name" id='pname' required></input>
        </div>
 
        <div class="share">
@@ -42,18 +42,5 @@
          <div class="submit"> <input type='submit' name='submit' id="submit" />
       
 </div>
-<h3>Payment :</h3>
-<div class="chck1">
-    
-<input type="radio" id="chck1" name="payment_method" required>
-<label for="vehicle1"> UPI </label><br>
-</div>
-
-<div class="chck2">
-    
-<input type="radio" id="chck2"  name="payment_method" >
-<label for="vehicle1"> Other </label><br>
-</div>
-    </form>
 </body>
 </html>

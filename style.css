@@ -14,13 +14,20 @@ body{
     font-size: 43px;
 }
 
+.donate{
+    text-decoration: none;
+    color: #141414;
+}
+
 .btn {
     display: inline-block;
     padding: 10px 20px;
     background-color: #333;
     color: #fff;
     text-decoration: none;
-    border-radius: 5px;}
+   
+    border-radius: 5px;
+}
 
 .image img{
     position: absolute;
@@ -58,7 +65,7 @@ form {
 			margin: 8px 0;
 			box-sizing: border-box;
 			border: 2px solid #ccc;
-			border-radius: 4px;
+			border-radius: 11px;
 			font-size: 16px;
 			background-color: #f7f7f7;
 			color: #555;

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PAW FOR LIFE</title>
     <link rel="stylesheet" href="INDEX.CSS" />
+    <link rel="icon" type="image/x-icon" href="./logoweb.png">
     <link rel="stylesheet" href="style1.css" />
 
     
@@ -65,7 +66,7 @@
             Lets come and Help
            </p>
            <button>
-            <h1>Became Now</h1>
+           <h1><a class="donatenow" href="./became.php">Became Now</a> </h1>
            </button>
         </div>
         <div class="Adoptionbox">
@@ -74,7 +75,7 @@
             Adopt and care the animals
            </p>
            <button>
-            <h1>Adopt now</h1>
+            <h1><a class="donatenow" href="./adopt.php">Adopt Now</a></h1>
            </button>
         </div>
 
@@ -85,15 +86,17 @@
     <section class="programs"  id="Programsection">
       <div class="container">
         <h2 class="sectionTitle">Program</h2>
-          
-        <div class="boxContainer">
-          <div class="Box">
-            <div class="cardImage"></div>
-            <div class="programTitle">Education to every one </div>
-            <div class="donationcount">Donation goal :</div>
-          </div>
+        
+        <div class="column">
+        <img src="./camp1.jpeg" alt="Snow" >
+       -------------
+        <img src="./camp2.jpeg" alt="Forest" > 
+       -------------
+        <img src="./camp3.jpeg" alt="Mountains" >
+        
         </div>
-      </div> 
+
+       
     </section>
     
   </body>
